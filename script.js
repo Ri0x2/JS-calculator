@@ -10,7 +10,7 @@ function clearDisplay(){
  function calculate() {
     try {
         const expression = display.value;
-        if (expression= "Infinity") {
+        if (expression == "Infinity") {
             display.value = "Error";
             setTimeout(() => { display.value = "" }, 2000);
             return;
